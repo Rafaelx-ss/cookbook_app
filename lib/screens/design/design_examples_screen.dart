@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'drawer_example.dart';
 import 'snackbar_example.dart';
+import 'fonttopackage_example.dart';
 import 'orientation_example.dart';
 import 'custom_font_example.dart';
 import 'theme_example.dart';
@@ -18,17 +19,24 @@ class DesignExamplesScreen extends StatelessWidget {
       body: ListView(
         children: [
           ListTile(
-            title: const Text('Drawer Example'),
+            title: const Text('Add a drawer to a screen'),
             onTap: () => Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const DrawerExample()),
             ),
           ),
           ListTile(
-            title: const Text('Snackbar Example'),
+            title: const Text('Display a snackbar'),
             onTap: () => Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const SnackbarExample()),
+            ),
+          ),
+          ListTile(
+            title: const Text('Add a font to a package'),
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const FontToPackageExample()),
             ),
           ),
           ListTile(

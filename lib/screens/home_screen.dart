@@ -11,33 +11,33 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Cookbook Examples'),
+        title: const Text('Rafael Solis - Flutter Cookbook'),
       ),
       body: ListView(
         padding: const EdgeInsets.all(16.0),
         children: [
           _buildSection(
             context,
-            'Design Examples',
-            'Drawer, Snackbar, Fonts, Themes, and more',
+            'Desing - Activities ',
+            'Drawer, Snackbar, Fonts, Themes and tabs',
             const DesignExamplesScreen(),
           ),
           _buildSection(
             context,
-            'Images Examples',
+            'Images - Activities',
             'Internet images and image fade-in',
             const ImagesExamplesScreen(),
           ),
           _buildSection(
             context,
-            'Lists Examples',
-            'Grid lists, horizontal lists, and more',
+            'Lists - Activities',
+            'Grid lists, horizontal lists...',
             const ListsExamplesScreen(),
           ),
           _buildSection(
             context,
-            'Navigation Examples',
-            'Routes, animations, and data passing',
+            'Navigation - Activities',
+            'Routes, animations...',
             const NavigationExamplesScreen(),
           ),
         ],

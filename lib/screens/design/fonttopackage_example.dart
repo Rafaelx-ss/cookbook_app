@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SnackbarExample extends StatelessWidget {
-  const SnackbarExample({super.key});
+class FontToPackageExample extends StatelessWidget {
+  const FontToPackageExample({super.key});
 
   @override
   Widget build(BuildContext context) {

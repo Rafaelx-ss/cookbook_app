@@ -7,7 +7,7 @@ class DrawerExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Drawer Example'),
+        title: const Text('Add a drawer to a screen'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -18,7 +18,7 @@ class DrawerExample extends StatelessWidget {
                 color: Colors.blue,
               ),
               child: Text(
-                'Drawer Header',
+                'Ejemplo de Drawer',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,
@@ -26,13 +26,13 @@ class DrawerExample extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text('Item 1'),
+              title: const Text('Draw 1'),
               onTap: () {
                 Navigator.pop(context);
               },
             ),
             ListTile(
-              title: const Text('Item 2'),
+              title: const Text('Draw 2'),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -41,7 +41,7 @@ class DrawerExample extends StatelessWidget {
         ),
       ),
       body: const Center(
-        child: Text('Open drawer from the left'),
+        child: Text('Abrir el drawer desde el icono superior izquierdo'),
       ),
     );
   }
