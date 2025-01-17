@@ -1,7 +1,9 @@
+//lib/screens/home_screen.dart
 import 'package:flutter/material.dart';
 import 'design/design_examples_screen.dart';
 import 'images/images_examples_screen.dart';
 import 'lists/lists_examples_screen.dart';
+import 'actividad1/namer_app_screen.dart';
 import 'navigation/navigation_examples_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -39,6 +41,12 @@ class HomeScreen extends StatelessWidget {
             'Navigation - Activities',
             'Routes, animations...',
             const NavigationExamplesScreen(),
+          ),
+          _buildSection(
+            context,
+            'Actividad 1',
+            'Your first Flutter app',
+            const NamerAppScreen(),
           ),
         ],
       ),
