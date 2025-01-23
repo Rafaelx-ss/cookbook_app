@@ -5,6 +5,8 @@ import 'images/images_examples_screen.dart';
 import 'lists/lists_examples_screen.dart';
 import 'actividad1/namer_app_screen.dart';
 import 'navigation/navigation_examples_screen.dart';
+import 'animation/animation_index.dart';
+import 'effects/effects_index.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -45,6 +47,30 @@ class HomeScreen extends StatelessWidget {
           _buildSection(
             context,
             'Actividad 1',
+            'Your first Flutter app',
+            const NamerAppScreen(),
+          ),
+          _buildSection(
+            context,
+            'Animation',
+            'Animate a: Page, Widget, Property and more',
+            const AnimationIndex(),
+          ),
+          _buildSection(
+            context,
+            'Effects',
+            'Your first Flutter app',
+            const EffectsIndex(),
+          ),
+          _buildSection(
+            context,
+            'Persistence',
+            'Your first Flutter app',
+            const NamerAppScreen(),
+          ),
+          _buildSection(
+            context,
+            'Networking',
             'Your first Flutter app',
             const NamerAppScreen(),
           ),
