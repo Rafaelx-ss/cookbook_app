@@ -7,6 +7,8 @@ import 'actividad1/namer_app_screen.dart';
 import 'navigation/navigation_examples_screen.dart';
 import 'animation/animation_index.dart';
 import 'effects/effects_index.dart';
+import 'persistence/data_storage_index.dart';
+import 'networking/networking_index.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -66,13 +68,13 @@ class HomeScreen extends StatelessWidget {
             context,
             'Persistence',
             'Your first Flutter app',
-            const NamerAppScreen(),
+            const DataPersistenceIndex(),
           ),
           _buildSection(
             context,
             'Networking',
             'Your first Flutter app',
-            const NamerAppScreen(),
+            const NetworkingIndex(),
           ),
         ],
       ),

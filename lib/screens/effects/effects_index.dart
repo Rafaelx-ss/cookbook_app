@@ -45,42 +45,42 @@ class EffectsIndex extends StatelessWidget {
             title: const Text('Shimmer loading effect'),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const ExampleCupertinoDownloadButton()),
+              MaterialPageRoute(builder: (context) => const ExampleUiLoadingAnimation()),
             ),
           ),
           ListTile(
             title: const Text('Staggered menu animation'),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const ExampleCupertinoDownloadButton()),
+              MaterialPageRoute(builder: (context) => const ExampleStaggeredAnimations()),
             ),
           ),
           ListTile(
             title: const Text('Typing indicator animation'),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const ExampleCupertinoDownloadButton()),
+              MaterialPageRoute(builder: (context) => const ExampleIsTyping()),
             ),
           ),
           ListTile(
             title: const Text('Expandable FAB'),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const ExampleCupertinoDownloadButton()),
+              MaterialPageRoute(builder: (context) => const ExampleExpandableFab()),
             ),
           ),
           ListTile(
             title: const Text('Gradient chat bubbles'),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const ExampleCupertinoDownloadButton()),
+              MaterialPageRoute(builder: (context) => const ExampleGradientBubbles()),
             ),
           ),
           ListTile(
             title: const Text('UI Element Example'),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const ExampleCupertinoDownloadButton()),
+              MaterialPageRoute(builder: (context) => const ExampleDragAndDrop()),
             ),
           ),
         ],
